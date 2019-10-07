@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css-styles/estilos.css">
 </head>
 <body>
+    <main>
         <header class="flex between">
                 <div class="flex left middle wrap">
                     <div class="flex middle center brand">
@@ -35,29 +36,144 @@
                 </div>
             </header>
 
-            <article>
-                <!-- <section>
-                    <div>
-                        <img src="img/CursoJavascript.png">
-                    </div>
-                    <div>
+            <article class="articleDetalle">
+                 <section class="detalleCurso">
+                      <img src="img/CursoJavascript.png">
+                    <div class="contenedorDetalle">
                         <h3>TITULO CURSO</h3>
                         <p>Valor: </p>
                         <p>TIempo de dedicacion necesario: </p>
                         <p>Descripcion: </p>
                         <p>Requisitos Previos: </p>
+                        <a href="" class="course-card-button"> <i class="fa fa-ticket"></i> Inscribirse</a>
                     </div>
-                </section> -->
-
-                <section>
-                    <img src="img/images.jpg" alt="">
+                    </div>
+                </section>
+                <section class="acordion">
+                        <button class="accordion">Section 1</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        
+                        <button class="accordion">Section 2</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        
+                        <button class="accordion">Section 3</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                </section>
+                <section class="articleDocente">
+                    <hr>
+                    <img src="img/images.png" alt="">
                     <div class="infoDocente">
                         <h3>NOMBRE Y APELLIDO</h3>
                         <p>★★★★★</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sed aperiam animi minima dolor debitis facilis sit, neque perspiciatis et expedita nisi totam hic atque veniam at deserunt, sunt temporibus.</p>
+                        <div class="parrafo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sed aperiam animi minima dolor debitis facilis sit, neque perspiciatis et expedita nisi totam hic atque veniam at deserunt, sunt temporibus.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates temporibus quis nesciunt. Accusantium dolores, ullam quibusdam modi quasi cum. Sequi esse quibusdam ab eveniet, minima deleniti culpa rerum nisi.</p>
+                        </div>
                     </div>
                 </section>
+    
+                <section class="flex footer">
+                        <article class="course-card">
+                                <img class="course-img" src="img/CursoJavascript.png">
+                                <div class="course-card-container flex row middle between">
+                                    <div class="course-card-date">
+                                        <h2>JUN <span class="course-card-date-number">9</span></h2>
+                                    </div>
+                                    <div class="course-card-content">
+                                        <h3 class="course-card-title">Curso de Javascript</h3>
+                                        <a href="detalleCurso.html"><small class="course-card-subtitle">Ver Detalle</small></a>
+                                        <a href="" class="course-card-button"> <i class="fa fa-ticket"></i> Comprar</a>
+                                    </div>
+                                </div>
+                            </article>
 
+                            <article class="course-card">
+                                    <img class="course-img" src="img/CursoJavascript.png">
+                                    <div class="course-card-container flex row middle between">
+                                        <div class="course-card-date">
+                                            <h2>JUN <span class="course-card-date-number">9</span></h2>
+                                        </div>
+                                        <div class="course-card-content">
+                                            <h3 class="course-card-title">Curso de Javascript</h3>
+                                            <a href="detalleCurso.html"><small class="course-card-subtitle">Ver Detalle</small></a>
+                                            <a href="" class="course-card-button"> <i class="fa fa-ticket"></i> Comprar</a>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="course-card">
+                                        <img class="course-img" src="img/CursoJavascript.png">
+                                        <div class="course-card-container flex row middle between">
+                                            <div class="course-card-date">
+                                                <h2>JUN <span class="course-card-date-number">9</span></h2>
+                                            </div>
+                                            <div class="course-card-content">
+                                                <h3 class="course-card-title">Curso de Javascript</h3>
+                                                <a href="detalleCurso.html"><small class="course-card-subtitle">Ver Detalle</small></a>
+                                                <a href="" class="course-card-button"> <i class="fa fa-ticket"></i> Comprar</a>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="course-card">
+                                            <img class="course-img" src="img/CursoJavascript.png">
+                                            <div class="course-card-container flex row middle between">
+                                                <div class="course-card-date">
+                                                    <h2>JUN <span class="course-card-date-number">9</span></h2>
+                                                </div>
+                                                <div class="course-card-content">
+                                                    <h3 class="course-card-title">Curso de Javascript</h3>
+                                                    <a href="detalleCurso.html"><small class="course-card-subtitle">Ver Detalle</small></a>
+                                                    <a href="" class="course-card-button"> <i class="fa fa-ticket"></i> Comprar</a>
+                                                </div>
+                                            </div>
+                                        </article>
+                </section>
             </article>
+            <footer class="footer">
+                    <section class="flex row wrap center footer-container">
+                        <article class="footer-column">
+                            <ul>
+                                <li> Sanchez, Maximiliano </li>
+                            </ul>
+                        </article>
+                        <article class="footer-column">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                            </ul>
+                        </article>
+                        <article class="footer-column">
+                            <ul>
+                                <li>Twitter</li>
+                                <li>Facebook</li>                    
+                            </ul>
+                        </article>
+                    </section>
+                </footer>
+            </main>
 </body>
 </html>
+
+<script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+</script>

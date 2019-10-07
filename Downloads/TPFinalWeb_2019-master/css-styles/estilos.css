@@ -1,11 +1,10 @@
 /* INDICE */
 main {
     background-color: #ededed;
-    
   }
 
 .listaInicio{
-  background: #cebf7b;
+  background: #e2e2e2;
   padding: 15px;
   border-radius: 50px;
 }
@@ -96,14 +95,15 @@ main {
     position: relative;
     left: 362px;
   }
-  main p {
-    margin-top: 30px;
-    margin-left: 30px;
-  }
+  
   .sectionContacto {
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
+  }
+
+  .sectionContacto article p{
+    margin-top: 30px;
   }
   aside {
     text-align: center;
@@ -159,7 +159,7 @@ main {
     margin-bottom: 10px;
   }
   
-  .course-card .course-card-content .course-card-button {
+  .course-card-button {
     background-color: #28a745;
     color: white;
     padding: 5px 32px;
@@ -296,10 +296,15 @@ main {
   }
 
   /* FOOTER */
+
+  .footer{
+    margin-top: 10px;
+  }
   .footer-column {
     width: 250px;  
     margin: 1%;
     text-align: left;
+
   }
   
   .footer-container {
@@ -330,3 +335,80 @@ main {
   }
   
   /* DETALLE CURSO */
+
+  .articleDetalle{
+    width: 100%;
+  }
+
+  .articleDetalle .detalleCurso img{
+    width: 30%;
+    border-radius: 100px;
+    float: left;
+  }
+
+  .articleDetalle .contenedorDetalle{
+    margin-left: 12.5%;
+    margin-right: auto;
+    width: 20%;
+
+  }
+
+  .articleDetalle .contenedorDetalle p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .articleDetalle .detalleCurso{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+  }
+
+  .articleDocente{
+    background:#4b5055;
+    height: 200px;
+    margin-top: 150px;
+  }
+
+  .articleDocente img{
+    float: left;
+    height: 100%;
+  }
+  
+  .articleDocente .infoDocente{
+    height: 100%;
+    
+  }
+
+  .articleDocente .parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+  }
+   /* ACORDEON DE DETALLE */
+
+   .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }

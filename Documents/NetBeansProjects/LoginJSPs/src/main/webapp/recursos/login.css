@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+.formulario{
+    background-color: cadetblue;
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    margin: 10%;
+}
+
+input{
+    margin: 3%;
+}
+
+.formulario h2{
+    text-align: center;
+}
